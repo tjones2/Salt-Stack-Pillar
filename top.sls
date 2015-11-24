@@ -1,8 +1,6 @@
 base:
   '*':
     - users
-    - dir
-    - default
-    - logins
-    - vpn
-    - openvpn
+  
+  'os_family:Debian'
+    - users
